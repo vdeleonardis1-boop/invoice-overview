@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoice Overview</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Invoice Overview</h1>
+      <p>A weekly summary of invoice counts and amounts.</p>
+      <p>Demonstration project using fictional data.</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Weekly Summary</h2>
+        <p>Total invoices: 70</p>
+
+        <div class="summary-grid">
+          <article class="summary-card">
+            <h3>EUR</h3>
+            <p>37 invoices</p>
+            <p>Total amount: €973,465.42</p>
+          </article>
+
+          <article class="summary-card">
+            <h3>USD</h3>
+            <p>21 invoices</p>
+            <p>Total amount: $661,589.67</p>
+          </article>
+
+          <article class="summary-card">
+            <h3>GBP</h3>
+            <p>12 invoices</p>
+            <p>Total amount: £232,302.92</p>
+          </article>
+        </div>
+      </section>
+      <section class="invoice-details">
+        <h2>Invoice Details</h2>
+
+        <div class="table-wrapper">
+          <table>
+            <caption>
+              Sample of 6 invoices from the weekly total of 70.
+            </caption>
+
+            <thead>
+              <tr>
+                <th scope="col">Invoice ID</th>
+                <th scope="col">Date</th>
+                <th scope="col">Currency</th>
+                <th scope="col" class="number">Amount</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>INV-001</td>
+                <td>28 Sep 2026</td>
+                <td>EUR</td>
+                <td class="number">25,480.50</td>
+              </tr>
+              <tr>
+                <td>INV-002</td>
+                <td>28 Sep 2026</td>
+                <td>USD</td>
+                <td class="number">18,920.00</td>
+              </tr>
+              <tr>
+                <td>INV-003</td>
+                <td>29 Sep 2026</td>
+                <td>GBP</td>
+                <td class="number">12,450.75</td>
+              </tr>
+              <tr>
+                <td>INV-004</td>
+                <td>29 Sep 2026</td>
+                <td>EUR</td>
+                <td class="number">41,250.00</td>
+              </tr>
+              <tr>
+                <td>INV-005</td>
+                <td>30 Sep 2026</td>
+                <td>USD</td>
+                <td class="number">32,600.25</td>
+              </tr>
+              <tr>
+                <td>INV-006</td>
+                <td>30 Sep 2026</td>
+                <td>GBP</td>
+                <td class="number">8,750.00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
